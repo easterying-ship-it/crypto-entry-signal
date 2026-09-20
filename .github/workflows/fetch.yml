@@ -1,0 +1,42 @@
+name: fetch-signals
+
+on:
+  schedule:
+    # 00:30 UTC = 北京 08:30，比云端日报(09:00)早半小时；GitHub 定时可能延迟 10–30 分钟
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["fetch_signals.py", ".github/workflows/fetch.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-signals
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch indicators
+        run: python3 fetch_signals.py data/latest.json
+      - name: Keep a dated copy (last 60 days)
+        run: |
+          d=$(date -u +%Y-%m-%d)
+          cp data/latest.json "data/history/$d.json" 2>/dev/null || { mkdir -p data/history; cp data/latest.json "data/history/$d.json"; }
+          ls -1 data/history/*.json | sort | head -n -60 | xargs -r rm --
+      - name: Commit
+        run: |
+          git config user.name "signal-bot"
+          git config user.email "signal-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "no change" && exit 0
+          git commit -m "data: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
