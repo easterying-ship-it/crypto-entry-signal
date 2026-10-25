@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-24T04:53:04Z",
- "generated_at_bj": "2026-10-24 12:53",
+ "generated_at_utc": "2026-10-25T05:03:55Z",
+ "generated_at_bj": "2026-10-25 13:03",
  "levels": {
   "hold": 80000,
   "confirm": 83000,
@@ -9,19 +9,19 @@
   "set_on": "2026-09-20"
  },
  "price": {
-  "btc": 80811,
-  "btc_24h_pct": -0.93,
-  "eth": 2380.64,
-  "eth_24h_pct": -0.57
+  "btc": 80847,
+  "btc_24h_pct": 0.06,
+  "eth": 2365.82,
+  "eth_24h_pct": -0.55
  },
  "positioning": {
-  "funding_8h_pct": 0.0024,
-  "funding_annualized_pct": 2.7,
+  "funding_8h_pct": 0.0082,
+  "funding_annualized_pct": 9.0,
   "funding_source": "okx"
  },
  "flows": {
-  "stablecoin_total_bn": 304.3,
-  "stablecoin_wow_pct": -0.38
+  "stablecoin_total_bn": 303.5,
+  "stablecoin_wow_pct": -0.57
  },
  "macro": {
   "us10y": 4.999,
@@ -32,15 +32,15 @@
   "dxy_asof": "2026-10-23",
   "wti": 103.44,
   "wti_chg_pct": "+3.99%",
-  "wti_asof": "2026-10-24T18:43:52.000-0400",
+  "wti_asof": "2026-10-24",
   "gold": 4010.0,
   "gold_chg_pct": "-1.24%",
-  "gold_asof": "2026-10-24T18:43:51.000-0400",
+  "gold_asof": "2026-10-24",
   "source": "cnbc",
   "events_days_left": {
-   "FOMC": 3,
-   "CPI(9月数据)": -10,
-   "期权到期": 6
+   "FOMC": 2,
+   "CPI(9月数据)": -11,
+   "期权到期": 5
   },
   "events_dates": {
    "FOMC": "2026-10-27",
@@ -49,9 +49,9 @@
   }
  },
  "sentiment": {
-  "fear_greed": 51,
+  "fear_greed": 54,
   "label": "Neutral",
-  "fear_greed_prev": 50
+  "fear_greed_prev": 51
  },
  "errors": [
   "https://api.binance.com/api/v3/klines -> HTTP 451",
