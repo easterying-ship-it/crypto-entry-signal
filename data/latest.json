@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-10-26T05:07:23Z",
- "generated_at_bj": "2026-10-26 13:07",
+ "generated_at_utc": "2026-10-27T05:22:08Z",
+ "generated_at_bj": "2026-10-27 13:22",
  "levels": {
   "hold": 80000,
   "confirm": 83000,
@@ -9,38 +9,38 @@
   "set_on": "2026-09-20"
  },
  "price": {
-  "btc": 80043,
-  "btc_24h_pct": -0.99,
-  "eth": 2321.28,
-  "eth_24h_pct": -1.87
+  "btc": 79769,
+  "btc_24h_pct": -0.29,
+  "eth": 2312.29,
+  "eth_24h_pct": -0.25
  },
  "positioning": {
-  "funding_8h_pct": 0.0062,
-  "funding_annualized_pct": 6.8,
+  "funding_8h_pct": 0.01,
+  "funding_annualized_pct": 11.0,
   "funding_source": "okx"
  },
  "flows": {
-  "stablecoin_total_bn": 303.2,
-  "stablecoin_wow_pct": -0.64
+  "stablecoin_total_bn": 302.8,
+  "stablecoin_wow_pct": -0.59
  },
  "macro": {
-  "us10y": 4.968,
-  "us10y_chg_pct": "-0.401%",
-  "us10y_asof": "2026-10-26T01:06:02.000-0400",
-  "dxy": 101.647,
-  "dxy_chg_pct": "-0.16%",
-  "dxy_asof": "2026-10-26T01:07:24.000-0400",
-  "wti": 100.97,
-  "wti_chg_pct": "-2.23%",
-  "wti_asof": "2026-10-26T00:57:21.000-0400",
-  "gold": 4029.1,
-  "gold_chg_pct": "+0.53%",
-  "gold_asof": "2026-10-26T00:57:10.000-0400",
+  "us10y": 4.97,
+  "us10y_chg_pct": "-0.3209%",
+  "us10y_asof": "2026-10-27T01:21:04.000-0400",
+  "dxy": 102.087,
+  "dxy_chg_pct": "+0.13%",
+  "dxy_asof": "2026-10-27T01:22:08.000-0400",
+  "wti": 100.67,
+  "wti_chg_pct": "-1.07%",
+  "wti_asof": "2026-10-27T01:11:52.000-0400",
+  "gold": 4020.3,
+  "gold_chg_pct": "-0.45%",
+  "gold_asof": "2026-10-27T01:12:07.000-0400",
   "source": "cnbc",
   "events_days_left": {
-   "FOMC": 1,
-   "CPI(9月数据)": -12,
-   "期权到期": 4
+   "FOMC": 0,
+   "CPI(9月数据)": -13,
+   "期权到期": 3
   },
   "events_dates": {
    "FOMC": "2026-10-27",
@@ -49,9 +49,9 @@
   }
  },
  "sentiment": {
-  "fear_greed": 50,
+  "fear_greed": 48,
   "label": "Neutral",
-  "fear_greed_prev": 54
+  "fear_greed_prev": 50
  },
  "errors": [
   "https://api.binance.com/api/v3/klines -> HTTP 451",
