@@ -1,0 +1,106 @@
+{
+ "generated_at_utc": "2026-10-29T06:11:03Z",
+ "generated_at_bj": "2026-10-29 14:11",
+ "levels": {
+  "hold": 80000,
+  "confirm": 83000,
+  "stop": 75000,
+  "ath": 126110,
+  "set_on": "2026-09-20"
+ },
+ "price": {
+  "btc": 80157,
+  "btc_24h_pct": -0.83,
+  "eth": 2319.61,
+  "eth_24h_pct": -1.33,
+  "daily_closes_last7": [
+   {
+    "d": "10-22",
+    "c": 81416
+   },
+   {
+    "d": "10-23",
+    "c": 81189
+   },
+   {
+    "d": "10-24",
+    "c": 80888
+   },
+   {
+    "d": "10-25",
+    "c": 80154
+   },
+   {
+    "d": "10-26",
+    "c": 80151
+   },
+   {
+    "d": "10-27",
+    "c": 80910
+   },
+   {
+    "d": "10-28",
+    "c": 81344
+   }
+  ],
+  "days_closed_above_80k": 41,
+  "sma50": 81943,
+  "sma200": 73111,
+  "golden_cross": true,
+  "price_above_sma50_200": false,
+  "pct_to_stop_75k": 6.4,
+  "pct_to_ath": 57.3,
+  "chg_7d_pct": -3.3,
+  "last_weekly_close": {
+   "week_ending": "2026-10-25",
+   "c": 80154
+  }
+ },
+ "positioning": {
+  "funding_8h_pct": 0.0033,
+  "funding_annualized_pct": 3.6,
+  "funding_source": "binance",
+  "oi_usd_bn": 7.79,
+  "oi_chg_7d_pct": -5.4,
+  "long_account_pct": 65.4,
+  "long_short_ratio": 1.89
+ },
+ "flows": {
+  "stablecoin_total_bn": 302.1,
+  "stablecoin_wow_pct": -0.85
+ },
+ "macro": {
+  "us10y": 5.007,
+  "us10y_chg_pct": "-0.7532%",
+  "us10y_asof": "2026-10-29T02:11:03.000-0400",
+  "dxy": 102.284,
+  "dxy_chg_pct": "+0.09%",
+  "dxy_asof": "2026-10-29T02:11:06.000-0400",
+  "wti": 101.29,
+  "wti_chg_pct": "-1.45%",
+  "wti_asof": "2026-10-29T02:00:54.000-0400",
+  "gold": 4040.1,
+  "gold_chg_pct": "-0.28%",
+  "gold_asof": "2026-10-29T02:01:05.000-0400",
+  "source": "cnbc",
+  "events_days_left": {
+   "FOMC": -2,
+   "CPI(9月数据)": -15,
+   "期权到期": 1
+  },
+  "events_dates": {
+   "FOMC": "2026-10-27",
+   "CPI(9月数据)": "2026-10-14",
+   "期权到期": "2026-10-30"
+  }
+ },
+ "sentiment": {
+  "fear_greed": 51,
+  "label": "Neutral",
+  "fear_greed_prev": 51
+ },
+ "errors": [
+  "https://farside.co.uk/btc/ -> HTTP 403",
+  "https://farside.co.uk/eth/ -> HTTP 403"
+ ]
+}
