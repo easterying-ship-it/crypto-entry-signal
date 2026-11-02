@@ -1,0 +1,64 @@
+{
+ "generated_at_utc": "2026-11-02T06:35:22Z",
+ "generated_at_bj": "2026-11-02 14:35",
+ "levels": {
+  "hold": 80000,
+  "confirm": 83000,
+  "stop": 75000,
+  "ath": 126110,
+  "set_on": "2026-09-20"
+ },
+ "price": {
+  "btc": 78109,
+  "btc_24h_pct": 0.29,
+  "eth": 2283.11,
+  "eth_24h_pct": 0.67
+ },
+ "positioning": {
+  "funding_8h_pct": 0.0066,
+  "funding_annualized_pct": 7.2,
+  "funding_source": "okx"
+ },
+ "flows": {
+  "stablecoin_total_bn": 298.2,
+  "stablecoin_wow_pct": -1.54
+ },
+ "macro": {
+  "us10y": 4.933,
+  "us10y_chg_pct": "+0.0812%",
+  "us10y_asof": "2026-11-02T01:35:16.000-0500",
+  "dxy": 101.869,
+  "dxy_chg_pct": "-0.01%",
+  "dxy_asof": "2026-11-02T01:35:21.000-0500",
+  "wti": 100.71,
+  "wti_chg_pct": "-3.28%",
+  "wti_asof": "2026-11-02T01:25:17.000-0500",
+  "gold": 3920.4,
+  "gold_chg_pct": "+0.55%",
+  "gold_asof": "2026-11-02T01:25:17.000-0500",
+  "source": "cnbc",
+  "events_days_left": {
+   "FOMC": -6,
+   "CPI(9月数据)": -19,
+   "期权到期": 25
+  },
+  "events_dates": {
+   "FOMC": "2026-10-27",
+   "CPI(9月数据)": "2026-10-14",
+   "期权到期": "2026-11-27"
+  }
+ },
+ "sentiment": {
+  "fear_greed": 37,
+  "label": "Fear",
+  "fear_greed_prev": 34
+ },
+ "errors": [
+  "https://api.binance.com/api/v3/klines -> HTTP 451",
+  "https://fapi.binance.com/fapi/v1/premiumIndex -> HTTP 451",
+  "https://fapi.binance.com/futures/data/openInterestHist -> HTTP 451",
+  "https://fapi.binance.com/futures/data/globalLongShortAccountRatio -> HTTP 451",
+  "https://farside.co.uk/btc/ -> HTTP 403",
+  "https://farside.co.uk/eth/ -> HTTP 403"
+ ]
+}
