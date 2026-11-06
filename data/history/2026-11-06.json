@@ -1,0 +1,116 @@
+{
+ "generated_at_utc": "2026-11-06T07:08:48Z",
+ "generated_at_bj": "2026-11-06 15:08",
+ "levels": {
+  "hold": 80000,
+  "confirm": 83000,
+  "stop": 75000,
+  "ath": 126110,
+  "set_on": "2026-09-20"
+ },
+ "price": {
+  "btc": 75385,
+  "btc_24h_pct": -6.58,
+  "eth": 2219.27,
+  "eth_24h_pct": -8.72
+ },
+ "positioning": {
+  "funding_8h_pct": 0.0034,
+  "funding_annualized_pct": 3.8,
+  "funding_source": "okx"
+ },
+ "flows": {
+  "btc_etf_daily_musd": [
+   {
+    "date": "29 Oct 2026",
+    "total_musd": 17.2
+   },
+   {
+    "date": "30 Oct 2026",
+    "total_musd": -643.2
+   },
+   {
+    "date": "02 Nov 2026",
+    "total_musd": -398.6
+   },
+   {
+    "date": "03 Nov 2026",
+    "total_musd": -115.6
+   },
+   {
+    "date": "04 Nov 2026",
+    "total_musd": 74.6
+   },
+   {
+    "date": "05 Nov 2026",
+    "total_musd": -430.2
+   }
+  ],
+  "btc_pos_streak_days": 0,
+  "btc_neg_streak_days": 1,
+  "eth_etf_daily_musd": [
+   {
+    "date": "29 Oct 2026",
+    "total_musd": -105.5
+   },
+   {
+    "date": "30 Oct 2026",
+    "total_musd": -155.7
+   },
+   {
+    "date": "02 Nov 2026",
+    "total_musd": -139.7
+   },
+   {
+    "date": "03 Nov 2026",
+    "total_musd": -85.3
+   },
+   {
+    "date": "04 Nov 2026",
+    "total_musd": 53.0
+   },
+   {
+    "date": "05 Nov 2026",
+    "total_musd": -99.9
+   }
+  ],
+  "stablecoin_total_bn": 294.5,
+  "stablecoin_wow_pct": -1.52
+ },
+ "macro": {
+  "us10y": 4.825,
+  "us10y_chg_pct": "-0.2481%",
+  "us10y_asof": "2026-11-06T02:08:04.000-0500",
+  "dxy": 101.902,
+  "dxy_chg_pct": "+0.35%",
+  "dxy_asof": "2026-11-06T02:08:50.000-0500",
+  "wti": 91.48,
+  "wti_chg_pct": "+1.06%",
+  "wti_asof": "2026-11-06T01:58:40.000-0500",
+  "gold": 4058.0,
+  "gold_chg_pct": "-1.35%",
+  "gold_asof": "2026-11-06T01:58:47.000-0500",
+  "source": "cnbc",
+  "events_days_left": {
+   "FOMC": -10,
+   "CPI(9月数据)": -23,
+   "期权到期": 21
+  },
+  "events_dates": {
+   "FOMC": "2026-10-27",
+   "CPI(9月数据)": "2026-10-14",
+   "期权到期": "2026-11-27"
+  }
+ },
+ "sentiment": {
+  "fear_greed": 28,
+  "label": "Fear",
+  "fear_greed_prev": 50
+ },
+ "errors": [
+  "https://api.binance.com/api/v3/klines -> HTTP 451",
+  "https://fapi.binance.com/fapi/v1/premiumIndex -> HTTP 451",
+  "https://fapi.binance.com/futures/data/openInterestHist -> HTTP 451",
+  "https://fapi.binance.com/futures/data/globalLongShortAccountRatio -> HTTP 451"
+ ]
+}
