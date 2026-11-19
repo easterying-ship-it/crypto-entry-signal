@@ -1,0 +1,125 @@
+{
+ "generated_at_utc": "2026-11-19T07:44:39Z",
+ "generated_at_bj": "2026-11-19 15:44",
+ "levels": {
+  "hold": 80000,
+  "confirm": 83000,
+  "stop": 75000,
+  "ath": 126110,
+  "set_on": "2026-09-20"
+ },
+ "price": {
+  "btc": 63546,
+  "btc_24h_pct": -1.46,
+  "eth": 1800.37,
+  "eth_24h_pct": -0.44
+ },
+ "positioning": {
+  "funding_8h_pct": -0.001,
+  "funding_annualized_pct": -1.0,
+  "funding_source": "okx"
+ },
+ "flows": {
+  "btc_etf_daily_musd": [
+   {
+    "date": "11 Nov 2026",
+    "total_musd": -299.8
+   },
+   {
+    "date": "12 Nov 2026",
+    "total_musd": -284.1
+   },
+   {
+    "date": "13 Nov 2026",
+    "total_musd": -185.4
+   },
+   {
+    "date": "16 Nov 2026",
+    "total_musd": 7.9
+   },
+   {
+    "date": "17 Nov 2026",
+    "total_musd": -239.9
+   },
+   {
+    "date": "18 Nov 2026",
+    "total_musd": -306.5
+   }
+  ],
+  "btc_pos_streak_days": 0,
+  "btc_neg_streak_days": 2,
+  "eth_etf_daily_musd": [
+   {
+    "date": "11 Nov 2026",
+    "total_musd": -144.8
+   },
+   {
+    "date": "12 Nov 2026",
+    "total_musd": -70.5
+   },
+   {
+    "date": "13 Nov 2026",
+    "total_musd": 2.3
+   },
+   {
+    "date": "16 Nov 2026",
+    "total_musd": -8.4
+   },
+   {
+    "date": "17 Nov 2026",
+    "total_musd": -29.1
+   },
+   {
+    "date": "18 Nov 2026",
+    "total_musd": -39.8
+   }
+  ],
+  "stablecoin_total_bn": 286.4,
+  "stablecoin_wow_pct": -1.24
+ },
+ "macro": {
+  "us10y": null,
+  "us10y_prev": null,
+  "dxy": null,
+  "dxy_prev": null,
+  "wti": null,
+  "wti_prev": null,
+  "gold": null,
+  "gold_prev": null,
+  "source": "yahoo",
+  "events_days_left": {
+   "FOMC": -23,
+   "CPI(9月数据)": -36,
+   "期权到期": 8
+  },
+  "events_dates": {
+   "FOMC": "2026-10-27",
+   "CPI(9月数据)": "2026-10-14",
+   "期权到期": "2026-11-27"
+  }
+ },
+ "sentiment": {
+  "fear_greed": 10,
+  "label": "Extreme Fear",
+  "fear_greed_prev": 11
+ },
+ "errors": [
+  "https://api.binance.com/api/v3/klines -> HTTP 451",
+  "https://fapi.binance.com/fapi/v1/premiumIndex -> HTTP 451",
+  "https://fapi.binance.com/futures/data/openInterestHist -> HTTP 451",
+  "https://fapi.binance.com/futures/data/globalLongShortAccountRatio -> HTTP 451",
+  "cnbc quotes -> ValueError",
+  "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX -> HTTP 429",
+  "https://query2.finance.yahoo.com/v8/finance/chart/%5ETNX -> HTTP 429",
+  "yahoo ^TNX -> TypeError",
+  "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB -> HTTP 429",
+  "https://query2.finance.yahoo.com/v8/finance/chart/DX-Y.NYB -> HTTP 429",
+  "yahoo DX-Y.NYB -> TypeError",
+  "https://query1.finance.yahoo.com/v8/finance/chart/CL%3DF -> HTTP 429",
+  "https://query2.finance.yahoo.com/v8/finance/chart/CL%3DF -> HTTP 429",
+  "yahoo CL=F -> TypeError",
+  "https://query1.finance.yahoo.com/v8/finance/chart/GC%3DF -> HTTP 429",
+  "https://query2.finance.yahoo.com/v8/finance/chart/GC%3DF -> HTTP 429",
+  "yahoo GC=F -> TypeError"
+ ]
+}
