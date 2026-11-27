@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-26T08:43:49Z",
- "generated_at_bj": "2026-11-26 16:43",
+ "generated_at_utc": "2026-11-27T08:54:41Z",
+ "generated_at_bj": "2026-11-27 16:54",
  "levels": {
   "hold": 80000,
   "confirm": 83000,
@@ -9,14 +9,14 @@
   "set_on": "2026-09-20"
  },
  "price": {
-  "btc": 60649,
-  "btc_24h_pct": 2.41,
-  "eth": 1688.92,
-  "eth_24h_pct": 2.42
+  "btc": 61715,
+  "btc_24h_pct": 1.37,
+  "eth": 1730.54,
+  "eth_24h_pct": 1.96
  },
  "positioning": {
-  "funding_8h_pct": 0.0078,
-  "funding_annualized_pct": 8.5,
+  "funding_8h_pct": 0.0023,
+  "funding_annualized_pct": 2.5,
   "funding_source": "okx"
  },
  "flows": {
@@ -74,27 +74,27 @@
     "total_musd": -68.5
    }
   ],
-  "stablecoin_total_bn": 283.3,
-  "stablecoin_wow_pct": -0.87
+  "stablecoin_total_bn": 283.6,
+  "stablecoin_wow_pct": -0.35
  },
  "macro": {
-  "us10y": 4.864,
-  "us10y_chg_pct": "-0.7752%",
-  "us10y_asof": "2026-11-25T17:05:00.000-0500",
-  "dxy": 103.75,
-  "dxy_chg_pct": "+0.08%",
-  "dxy_asof": "2026-11-26T03:43:50.000-0500",
-  "wti": 84.08,
-  "wti_chg_pct": "+0.48%",
-  "wti_asof": "2026-11-26T03:33:48.000-0500",
-  "gold": 3562.0,
-  "gold_chg_pct": "+0.74%",
-  "gold_asof": "2026-11-26T03:31:57.000-0500",
+  "us10y": 4.922,
+  "us10y_chg_pct": "+1.5264%",
+  "us10y_asof": "2026-11-27T03:54:20.000-0500",
+  "dxy": 103.823,
+  "dxy_chg_pct": "+0.15%",
+  "dxy_asof": "2026-11-27T03:54:44.000-0500",
+  "wti": 85.7,
+  "wti_chg_pct": "+2.41%",
+  "wti_asof": "2026-11-27T03:44:44.000-0500",
+  "gold": 3673.2,
+  "gold_chg_pct": "+3.89%",
+  "gold_asof": "2026-11-27T03:44:25.000-0500",
   "source": "cnbc",
   "events_days_left": {
-   "FOMC": -30,
-   "CPI(9月数据)": -43,
-   "期权到期": 1
+   "FOMC": -31,
+   "CPI(9月数据)": -44,
+   "期权到期": 0
   },
   "events_dates": {
    "FOMC": "2026-10-27",
@@ -103,9 +103,9 @@
   }
  },
  "sentiment": {
-  "fear_greed": 11,
+  "fear_greed": 12,
   "label": "Extreme Fear",
-  "fear_greed_prev": 13
+  "fear_greed_prev": 11
  },
  "errors": [
   "https://api.binance.com/api/v3/klines -> HTTP 451",
