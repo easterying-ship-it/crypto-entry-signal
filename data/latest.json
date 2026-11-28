@@ -1,6 +1,6 @@
 {
- "generated_at_utc": "2026-11-27T08:54:41Z",
- "generated_at_bj": "2026-11-27 16:54",
+ "generated_at_utc": "2026-11-28T08:15:31Z",
+ "generated_at_bj": "2026-11-28 16:15",
  "levels": {
   "hold": 80000,
   "confirm": 83000,
@@ -9,22 +9,18 @@
   "set_on": "2026-09-20"
  },
  "price": {
-  "btc": 61715,
-  "btc_24h_pct": 1.37,
-  "eth": 1730.54,
-  "eth_24h_pct": 1.96
+  "btc": 59702,
+  "btc_24h_pct": -3.36,
+  "eth": 1654.99,
+  "eth_24h_pct": -4.56
  },
  "positioning": {
-  "funding_8h_pct": 0.0023,
-  "funding_annualized_pct": 2.5,
+  "funding_8h_pct": 0.0035,
+  "funding_annualized_pct": 3.8,
   "funding_source": "okx"
  },
  "flows": {
   "btc_etf_daily_musd": [
-   {
-    "date": "18 Nov 2026",
-    "total_musd": -306.5
-   },
    {
     "date": "19 Nov 2026",
     "total_musd": -582.3
@@ -44,15 +40,15 @@
    {
     "date": "25 Nov 2026",
     "total_musd": -453.0
+   },
+   {
+    "date": "27 Nov 2026",
+    "total_musd": -389.0
    }
   ],
   "btc_pos_streak_days": 0,
   "btc_neg_streak_days": 6,
   "eth_etf_daily_musd": [
-   {
-    "date": "18 Nov 2026",
-    "total_musd": -39.8
-   },
    {
     "date": "19 Nov 2026",
     "total_musd": -131.2
@@ -72,40 +68,44 @@
    {
     "date": "25 Nov 2026",
     "total_musd": -68.5
+   },
+   {
+    "date": "27 Nov 2026",
+    "total_musd": -69.4
    }
   ],
-  "stablecoin_total_bn": 283.6,
-  "stablecoin_wow_pct": -0.35
+  "stablecoin_total_bn": 282.8,
+  "stablecoin_wow_pct": -0.26
  },
  "macro": {
-  "us10y": 4.922,
-  "us10y_chg_pct": "+1.5264%",
-  "us10y_asof": "2026-11-27T03:54:20.000-0500",
-  "dxy": 103.823,
-  "dxy_chg_pct": "+0.15%",
-  "dxy_asof": "2026-11-27T03:54:44.000-0500",
-  "wti": 85.7,
-  "wti_chg_pct": "+2.41%",
-  "wti_asof": "2026-11-27T03:44:44.000-0500",
-  "gold": 3673.2,
-  "gold_chg_pct": "+3.89%",
-  "gold_asof": "2026-11-27T03:44:25.000-0500",
+  "us10y": 4.936,
+  "us10y_chg_pct": "+1.8152%",
+  "us10y_asof": "2026-11-27T14:30:00.000-0500",
+  "dxy": 104.035,
+  "dxy_chg_pct": "+0.36%",
+  "dxy_asof": "2026-11-27",
+  "wti": 83.33,
+  "wti_chg_pct": "-0.42%",
+  "wti_asof": "2026-11-28T18:38:04.000-0500",
+  "gold": 3650.0,
+  "gold_chg_pct": "+3.23%",
+  "gold_asof": "2026-11-28T18:38:03.000-0500",
   "source": "cnbc",
   "events_days_left": {
-   "FOMC": -31,
-   "CPI(9月数据)": -44,
-   "期权到期": 0
+   "FOMC": -32,
+   "CPI(9月数据)": -45,
+   "期权到期": 27
   },
   "events_dates": {
    "FOMC": "2026-10-27",
    "CPI(9月数据)": "2026-10-14",
-   "期权到期": "2026-11-27"
+   "期权到期": "2026-12-25"
   }
  },
  "sentiment": {
-  "fear_greed": 12,
+  "fear_greed": 10,
   "label": "Extreme Fear",
-  "fear_greed_prev": 11
+  "fear_greed_prev": 12
  },
  "errors": [
   "https://api.binance.com/api/v3/klines -> HTTP 451",
